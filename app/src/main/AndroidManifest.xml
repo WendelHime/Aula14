@@ -11,8 +11,8 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".ActivityA"
-            android:theme="@style/AppTheme"
-            android:label="Principal">
+            android:label="Principal"
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,8 +21,10 @@
         </activity>
         <activity
             android:name=".DialogActivity"
-            android:theme="@style/AppTheme"
-            android:label="@string/title_activity_dialog" />
+            android:label="@string/title_activity_dialog"
+            android:theme="@style/AppTheme.Dialog" />
+        <activity android:name=".ActivityB" />
+        <activity android:name=".ActivityC"></activity>
     </application>
 
 </manifest>
